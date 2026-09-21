@@ -1371,7 +1371,7 @@ h6 {
 .success-icon-wrap {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .success-icon {
@@ -1392,13 +1392,13 @@ h6 {
 
 .modal-body h2 {
   font-size: 0.8rem;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .modal-desc {
   color: var(--text-muted);
   font-size: 0.85rem;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .receipt-box {
@@ -1406,7 +1406,7 @@ h6 {
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .receipt-box h4 {
@@ -1434,15 +1434,15 @@ h6 {
 
 .receipt-row.total {
   border-top: 1px dashed var(--border-color);
-  padding-top: 10px;
-  margin-top: 10px;
+  padding-top: 8px;
+  margin-top: 8px;
   font-size: 1.05rem;
 }
 
 .receipt-row.total strong {
   color: var(--accent);
-  font-size: 1.2rem;
-  font-weight: 800;
+  font-size: 1.0rem;
+  font-weight: 600;
 }
 
 /* ==========================================================================
