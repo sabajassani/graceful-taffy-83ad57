@@ -1339,12 +1339,12 @@ h6 {
 .modal-card {
   background: var(--bg-white);
   border-radius: var(--radius-lg);
-  width: 90%;
-  max-width: 500px;
-  padding: 40px;
+  width: 80%;
+  max-width: 400px;
+  padding: 30px;
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
   position: relative;
-  transform: scale(0.9) translateY(20px);
+  transform: scale(0.9) translateY(10px);
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -1354,8 +1354,8 @@ h6 {
 
 .modal-close {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
   background: transparent;
   border: none;
   font-size: 1.3rem;
@@ -1371,11 +1371,11 @@ h6 {
 .success-icon-wrap {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .success-icon {
-  font-size: 4.5rem;
+  font-size: 2.5rem;
   color: #10b981;
   animation: scaleIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -1391,26 +1391,26 @@ h6 {
 }
 
 .modal-body h2 {
-  font-size: 1.8rem;
+  font-size: 0.8rem;
   margin-bottom: 12px;
 }
 
 .modal-desc {
   color: var(--text-muted);
-  font-size: 0.95rem;
-  margin-bottom: 30px;
+  font-size: 0.85rem;
+  margin-bottom: 20px;
 }
 
 .receipt-box {
   background: rgba(10, 28, 62, 0.02);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
-  padding: 20px;
-  margin-bottom: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 .receipt-box h4 {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   margin-bottom: 12px;
   color: var(--text-muted);
   text-transform: uppercase;
