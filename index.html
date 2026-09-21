@@ -525,23 +525,27 @@
     </div>
   </footer>
 
-  <!-- Booking Confirmation Modal / Dialog -->
+ <!-- Booking Confirmation Modal / Dialog -->
   <div class="modal-overlay" id="confirmModal">
     <div class="modal-card">
       <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
       <div class="modal-body text-center">
-      </div>
+        <div class="success-icon-wrap">
+          <div class="success-icon"><i class="fas fa-circle-check"></i></div>
+        </div>
         <h2>Booking Request Logged!</h2>
         <p class="modal-desc">Thank you, <strong id="modalCustomerName">Customer</strong>! Your container allocation
-          request has been registered. Soon you will be contacted.</p>
+          estimate has been registered. Our representative will contact you to confirm.</p>
 
         <div class="receipt-box text-left">
-          <h4>Preview:</h4>
+          <h4>Booking Request Preview:</h4>
           <div class="receipt-row">
-            <span>Service:</span><strong id="recService">Up Country Movement</strong>
+            <span>Selected Service:</span>
+            <strong id="recService">Up Country Movement</strong>
           </div>
           <div class="receipt-row">
-            <span>Route:</span><strong id="recRoute">Karachi to Lahore</strong>
+            <span>Route:</span>
+            <strong id="recRoute">Karachi to Lahore</strong>
           </div>
           <div class="receipt-row">
             <span>Cargo Weight:</span>
