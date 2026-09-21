@@ -328,7 +328,6 @@ document.addEventListener('DOMContentLoaded', () => {
       `- *Service Type:* ${serviceTitle}\n` +
       `- *Route:* ${currentMovementType === 'local' ? `${originCity} Local` : `${originCity} to${destCity}`}\n` +
       `- *Cargo Weight:* ${weight} Tons\n` +
-      `- *Estimated Cost:* PKR ${quote.totalCost.toLocaleString()}\n\n` +
       `Please confirm the container allocation and truck dispatch. Thanks!`;
 
     const encodedMsg = encodeURIComponent(textMsg);
